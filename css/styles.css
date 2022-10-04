@@ -691,8 +691,7 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
-    transition: color 250ms var(--animation-timing),
-    background-color 250ms var(--animation-timing);
+    transition: background-color 250ms var(--animation-timing);
   }
   
 .footer-social-links:hover,
