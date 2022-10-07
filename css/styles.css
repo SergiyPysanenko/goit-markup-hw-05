@@ -497,8 +497,9 @@ header {
     color: var(--icon-color);
     border-radius: 50%;
 
-    transition: background-color 250ms var(--animation-timing);
-  }
+    transition: color 250ms var(--animation-timing), 
+    background-color 250ms var(--animation-timing);
+}
   
 .social-links:hover,
 .social-links:focus {
@@ -510,8 +511,6 @@ header {
 .soc-links-svg {
   fill: var(--icon-color);
   fill: currentColor;
-
-  transition: fill 250ms var(--animating-timing);
 }
   
 .clients {
